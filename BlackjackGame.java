@@ -1,8 +1,4 @@
-package coe318.lab5;
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 public class BlackjackGame {
 
@@ -67,14 +63,9 @@ public class BlackjackGame {
     ui.gameOver();
   }
 
-  /**
-   * Determine the score of a pile of cards.
-   *
-   * @param p
-   * @return the score
-   */
+
   public int score(CardPile p) {
-    //FIX THIS
+
 
     int score = 0 ;
     for (Card card : p.getCards()){
@@ -97,16 +88,12 @@ public class BlackjackGame {
     return score;
   }
 
-  /**
-   * @return the houseCards
-   */
+
   public CardPile getHouseCards() {
     return houseCards;
   }
 
-  /**
-   * @return the yourCards
-   */
+
   public CardPile getYourCards() {
     return yourCards;
   }
