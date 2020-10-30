@@ -21,9 +21,7 @@ public class SimpleUI implements UserInterface {
       System.out.println("House Cards: " + "\n" +  this.game.getHouseCards().toString());
       System.out.println("Your Cards:" +  "\n" + this.game.getYourCards().toString());
        System.out.println("---------------------------------------------------------");
-      
-       
-        //FIX THIS
+     
     }
 
   @Override
